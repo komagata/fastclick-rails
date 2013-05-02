@@ -22,6 +22,11 @@ Add the follow line in app/assets/javascripts/application.js
 
     //= require fastclick
 
+Initialize in app/assets/javascripts/foo.js.coffee
+
+    $ ->
+      new FastClick(document.body)
+
 ## Contributing
 
 1. Fork it
